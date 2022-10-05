@@ -1,0 +1,36 @@
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.container-narrow {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.container-post-detail {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.flex { display: flex; }
+.f-space-between { justify-content: space-between; }
+.f-align-center { align-items: center; }
+
+@media screen and (max-width: 85em) {
+    .container {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    .container-post-detail {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 32em) {
+    .container-post-detail {
+        max-width: 85%;
+    }
+}

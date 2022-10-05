@@ -1,0 +1,31 @@
+.form-errors {
+    display: none;
+}
+
+.basic-enter {
+    display: block !important; 
+    opacity: 0;
+}
+
+.basic-enter-active {
+    display: block !important; 
+    opacity: 1;
+    transition: opacity 800ms;
+}
+
+.basic-enter-done {
+    display: block !important; 
+    opacity: 1;
+    transition: opacity 800ms;
+}
+
+.basic-exit {
+    display: block !important; 
+    opacity: 1;
+}
+
+.basic-exit-active {
+    display: block !important; 
+    opacity: 0;
+    transition: opacity 200ms;
+}

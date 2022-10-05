@@ -1,0 +1,12 @@
+section#contact {
+    padding-top: 6rem;
+
+    h1 { margin-bottom: 1rem; }
+
+    a {
+        transition: all 0.35s;
+        &:link, &:visited { color: $primary-light-1; }
+        &:hover, &:active { color: $primary-light-2; }
+    }
+}
+

@@ -1,0 +1,43 @@
+.message {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.message-success {
+    color: $green-dark;
+    background-color: $green-light;
+}
+
+.message-error {
+    color: $red-dark;
+    background-color: $red-light;
+}
+
+.form-errors {
+    background-color: $red-light;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    margin-bottom: 3rem;
+    
+    p { color: $red-dark; }
+}
+
+.react-confirm-alert {
+    font-family: inherit;
+
+    .react-confirm-alert-body {
+        font-family: inherit;
+        color: $primary-dark-1;
+        background-color: $primary-light-2 !important;
+
+    }
+
+    .react-confirm-alert-button-group {
+        button {
+            font-family: inherit;
+            font-size: 1.8rem;
+            background-color: $primary;
+        }
+    }
+}

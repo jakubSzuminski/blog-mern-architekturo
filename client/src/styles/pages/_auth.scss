@@ -1,0 +1,63 @@
+#auth {
+    .container-narrow { max-width: 40rem; }
+
+    padding-top: 8rem;
+    
+    .auth-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        h1 { font-size: 4rem; }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        fieldset {
+            outline: none;
+            border: none;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        input {
+            width: 100%;
+            display: block;
+            outline: none;
+            border: none;
+            background-color: $primary-light-2;
+            padding: 1rem 2rem;
+            border-radius: 2px;
+            
+            font-family: inherit;
+            font-size: inherit;
+            color: inherit;
+        }
+    }
+
+    .auth-form-additional {
+        font-size: 1.8rem;
+        a {
+            &:link, &:visited { color: $primary; transition: all 0.25s; }
+            &:hover, &:active { color: $primary-dark-2; } 
+        }
+    }
+}
+
+@media screen and (max-width: 35em) {
+    #auth {
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 32em) {
+    #auth .container-narrow {
+        max-width: 85%;
+    }
+}

@@ -1,0 +1,20 @@
+#not-found-page {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding-top: 6.4rem;
+
+    h1 span {
+        color: $red;
+        font-size: 2.7rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    a {
+        transition: all 0.25s;
+        &:link, &:visited { color: $primary; }
+        &:hover, &:active { color: $primary-dark-2; }
+    }
+}

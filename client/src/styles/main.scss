@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import './components/resets';
+@import './components/colors';
+@import './components/margins';
+@import './components/typography';
+@import './components/animations';
+
+@import './components/containers';
+@import './components/messages';
+@import './components/buttons';
+@import './components/posts';
+
+@import './pages/home';
+@import './pages/contact';
+@import './pages/auth';
+@import './pages/admin';
+@import './pages/post_creator';
+@import './pages/post_detailed';
+@import './pages/404';
+
+@import './sections/header';
+@import './sections/footer';
+
+main {
+    min-height: calc(100vh - 25rem);
+}
+
+body {
+    background-color: $background;
+}
