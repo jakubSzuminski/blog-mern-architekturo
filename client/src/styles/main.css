@@ -754,7 +754,7 @@ section.post-detail div.image-container img {
   height: 100%;
   z-index: 1;
   padding: 0;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 section.post-detail div.image-container::after {
   width: 100%;
@@ -764,7 +764,7 @@ section.post-detail div.image-container::after {
   left: 50%;
   transform: translate(-50%, -50%);
   content: "";
-  border-radius: 4px;
+  border-radius: 2px;
   background-color: rgba(166, 123, 86, 0.15);
   z-index: 1;
 }
